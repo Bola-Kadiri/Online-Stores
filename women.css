@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.general{
+    width: 100%;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #efefef;
+   line-height: 1.5;
+}
+.container{
+   width: 1200px;
+   max-width: 100%;
+   margin: 0 auto;
+}
+.container h1{
+   text-align: center;
+   margin: 20px;
+   font-size: 20px;
+   font-weight: 800;
+}
+
+.row{
+   
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+.card{
+   flex: 1 1 20rem;
+   display: flex;
+   margin: 10px 20px;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background: #fff;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+   padding: 10px 20px;
+   border-radius: 15px;
+   transition: all 10s ease;
+}
+.card img{
+    border-radius: 5px;
+}
+.imgs:hover{
+    width: 61%;
+    transform: translateY(200);
+    cursor: pointer;
+
+}
+
+
+.card h4{
+   font-size: 1rem;
+   text-transform: uppercase;
+   margin: 10px 0;
+   text-align: center;
+}
+
+.card p{
+   margin-bottom: 10px;
+   text-align: center;
+   opacity: 0.7;
+}
+.card img{
+   width: 300px;
+   max-width: 100%;
+   border-style: solid;
+
+}
+.card .btn{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   background: hsla(22, 7%, 24%, 0.9);
+   color: #fff;
+   font-weight: 700;
+   padding: 10px 10px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -o-border-radius: 5px;
+   text-align: center;
+   text-decoration: none;
+}
+
+
+.card .btn:hover{
+   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.nav-link-1{
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-link{
+
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link-1 p{
+    font-size: 1.25em;
+    font-weight: 900;
+    color:hsl(26, 100%, 55%);
+
+}
+.nav-link-1 img{
+    width: 25px;
+    height: 18px;
+    max-width: 100%;
+    display: none;
+
+}
+.nav-link-1 .menu-link li{
+    list-style: none;
+}
+.nav-link-1 .menu-link li a{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: #000;
+
+}
+
+.nav-link-2{
+    position: relative;
+    top: 0;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-link-2 img{
+    width: 30px;
+    max-width: 100%;
+    position: absolute;
+    
+}
+.nav-link-2 .img2{
+    border: 1px solid hsl(26, 100%, 55%);
+    border-radius: 50%;
+    position: absolute; 
+    right: 30px; 
+}
+.nav-link-2 span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: hsl(26, 100%, 55%);  
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 5px;  
+}
+span hr{
+    margin-top: 30px;
+    opacity: 0.2;
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-1 img{
+    width: 400px;
+    max-width: 100%;
+}
+.content-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inner-content-2 {
+    width: 35%;
+    min-height: 60vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.inner-content-2 h6{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.inner-content-2 h3{
+    margin: 5px 0;
+    font-size: 1.25em;
+    color: hsl(26, 100%, 55%);
+}
+.inner-content-2 p{
+    margin: 5px 0;
+    font-size: 1.25em;
+}
+.inner-inner-1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+
+}
+.inner-inner-1 {
+    display: flex;
+}
+ .amount{
+   
+    display: flex;
+    align-items: center;   
+}
+.increment{
+    display: flex;
+    margin-top: 30px;
+}
+.increment button{
+    padding: 10px 45px;
+    border-radius: 10px;
+}
+.inner-increment{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    width: 20%;
+    margin-right: 20px;
+    padding: 10px;
+    
+    
+}
+.inner-increment span{
+    font-size: 1em;
+    font-weight: 700;
+    
+}
+.amount h3{
+    margin-right: 30px;
+}
+button img .img2{
+    width: 25px;
+    height: 18px;
+    max-width: 100%;
+    display: none;
+}
+.increment button{
+    background-color:  hsl(26, 100%, 55%);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    outline: none;
+    border-style: none;
+}
+
+
+
+@media (max-width: 760px) {
+    .menu-link{
+    
+        width: 100%;
+        Min-height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0%;
+        top: 50px;
+        padding-top: 25px;
+        background-color: rgba(0, 0, 0, 0.9);  
+    
+    }
+    .menu-link li {
+        margin-bottom: 25px;
+    }
+    .nav-link-1 img{
+        width: 25px;
+        height: 18px;
+        max-width: 100%;
+        display: flex;
+    
+    }
+    .nav-link-1 .menu-link li a{
+        text-decoration: none;
+        font-size: 1.25em;
+        color: #fff;
+    
+    }
+    .nav-link-2 .img2{
+        display: none;
+    }
+    .content-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .content-1 .inner-content-1{
+
+        display: flex;
+        justify-content: flex-start;
+    }
+    .inner-content-2 {
+        width: 100%;
+        min-height: 60vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    
+       
+    }
+    
+    .increment{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 30px;
+    
+    }
+    .inner-increment{
+        display: flex;
+        justify-content: space-around;
+        background-color: green;
+        width: 30%;
+      
+        
+    }
+    .increment button{
+        width: 40%;
+        padding: 5px 45px;
+        border-radius: 10px;
+        margin: 20px 0 20px 0;
+    }
+    .inner-content-1{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+
+    }
+    .increment button{
+        background-color:  hsl(26, 100%, 55%);
+        color: #fff;
+        font-size: 1em;
+        font-weight: 300;
+        outline: none;
+        border-style: none;
+       
+        padding: 10px;
+    }
+    
+}
